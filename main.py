@@ -89,7 +89,7 @@ workflow.add_edge("scout", "mechanic")
 workflow.add_edge("mechanic", "inspector")
 
 def decide_to_finish(state):
-    if state["is_fixed"] or state.get("attempts", 0) >= 3:
+    if state["is_fixed"] or state.get("attempts", 0) >= 10:
         return "end"
     return "mechanic"
 

@@ -26,8 +26,7 @@ The system operates using a state-machine architecture powered by **LangGraph**.
 
 
 ## 🛠️ Installation
-
-1. **setup**
+**setup**
    ```bash
    git clone [https://github.com/DhashubhanKumar/PyFlow-Architect.git](https://github.com/DhashubhanKumar/PyFlow-Architect.git)
    cd PyFlow-Architect
